@@ -20,6 +20,21 @@ function multiplicar(){
 
 }
 
+function triangulo(){
+
+    resultado.innerHTML = (Number(n1.value) * Number(n2.value))/2;
+
+}
+
+function quadrado(){
+
+    resultado.innerHTML = Number(n1.value) * Number(n2.value);
+
+}
+
+
+
+
 function dividir(){
 
     if(Number(n2.value) === 0){
@@ -33,5 +48,31 @@ function dividir(){
         resultado.innerHTML = Number(n1.value) / Number(n2.value);
 
     }
+
+}
+
+function num1(){
+
+    if()
+    resultado.innerHTML = Number(n1.value) * Number(n2.value);
+
+}
+
+
+var ida = document.querySelector('#ida');
+var  verifica = document.querySelector('#verifica');
+
+function idade(){
+
+if(Number(ida.value) >= 18){
+
+    verifica.innerHTML = "Maior de Idade.";
+
+}
+else{
+
+    verifica.innerHTML = "Menor de Idade.";
+
+}
 
 }

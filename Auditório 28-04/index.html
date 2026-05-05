@@ -7,20 +7,34 @@
 </head>
 <body>
     <h1>Minha Calculadora</h1>
-    Primeiro Número <br />
+    Primeiro Número (Altura do triângulo/Lado do quadrado) <br />
     <input type="number" id="n1">
     <br>
-    Segundo Número <br />
+    Segundo Número (base do triângulo)<br />
     <input type="number" id="n2">
     <br>
     <br>
     <button onclick="somar()">Somar</button>
-    <button onclick="subtrair">Subtrair</button>
-    <button onclick="multiplicar">Multiplicar</button>
-    <button onclick="dividir">Dividir</button>
+    <button onclick="subtrair()">Subtrair</button>
+    <button onclick="multiplicar()">Multiplicar</button>
+    <button onclick="dividir()">Dividir</button>
+    <button onclick="triangulo()">Triângulo</button>
+    <button onclick="quadrado()">Quadrado</button>
+    <button onclick="num1()">Par ou Ímpar (Primeiro número)</button>
+    <button onclick="num2()">Par ou Ímpar (Segundo número)</button>
     <br>
     <br>
     O resultado é <span id="resultado"></span>
+    <br>
+    <br>
+    <h2>Verifique sua idade</h2>
+    <input type="number" id="ida">
+    <br>
+    <br>
+    <button onclick="idade">Verificar Idade</button>
+    <br>
+    <br>
+    Você é <span id="verifica"></span>
 
     <script src="js/calculo.js">     </script>
 </body>
