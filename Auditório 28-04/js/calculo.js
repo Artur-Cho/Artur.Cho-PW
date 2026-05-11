@@ -32,6 +32,37 @@ function quadrado(){
 
 }
 
+function num1(){
+
+    if( n1.value % 2 === 0){
+
+        resultado.innerHTML = "Par";
+
+    }
+
+    else{
+
+         resultado.innerHTML = "Ímpar";
+
+    }
+
+}
+
+function num2(){
+
+    if( n2.value % 2 === 0){
+
+        resultado.innerHTML = "Par";
+
+    }
+
+    else{
+
+         resultado.innerHTML = "Ímpar";
+
+    }
+
+}
 
 
 
@@ -51,16 +82,12 @@ function dividir(){
 
 }
 
-function num1(){
 
-    if()
-    resultado.innerHTML = Number(n1.value) * Number(n2.value);
-
-}
 
 
 var ida = document.querySelector('#ida');
 var  verifica = document.querySelector('#verifica');
+
 
 function idade(){
 
