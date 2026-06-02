@@ -1,0 +1,19 @@
+.espaco{
+    gap: 1500px;
+    justify-content: left;
+    display: flex;
+}
+.cima{
+    justify-content: left;
+    display: flex;
+    gap: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(105, 214, 241);
+    
+}
+h4{
+    font-size: 20px;
+}
+h3{
+    font-size: 20px;
+}
