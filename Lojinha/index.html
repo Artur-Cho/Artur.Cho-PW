@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojinha do Bem</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+<body>
+   <div class="cabeçalho">
+    <img src="Design sem nome (1).png" width="60" height="60">
+    <h1>Lojinha do Cho</h1>
+</div>
+
+<div class="menu">
+    <table border="1">
+
+        <tr>
+            <th colspan="2">Imagem</th>
+            <th>Produto</th>
+            <th>Preço Unitário</th>
+            <th>Quantidade</th>
+            <th>Total</th>
+        </tr>
+
+        <tr>
+            <th colspan="2"><img src="https://m.media-amazon.com/images/I/71tV-csYdCL.jpg" width="275" height="275"></th>
+            <th>MSI Placa gráfica Gaming RTX 5090 32G Gaming Trio OC (32GB GDDR7, 512-bit, Extreme Clock TBD MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)</th>
+            <th>R$ 33.925,00</th>
+            <th>
+                <button onclick="Menos(0)" >-</button>
+                <span id="Quant1">0</span> 
+                <button onclick="Mais(0)">+</button>
+            </th>
+            <th><span id="final">0</span></th>
+        </tr>
+
+        <tr>
+            <th colspan="2"><img src="https://http2.mlstatic.com/D_NQ_NP_982767-MLA109132246068_042026-O.webp" width="275" height="275"></th>
+            <th>Celular Samsung Galaxy S26 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla, Tela Grande de 6.9" Preto</th>
+            <th>R$ 7424,00</th>
+            <th><button onclick="Menos(1)" >-</button>
+                <span id="Quant2">0</span> 
+                <button onclick="Mais(1)">+</button>
+            </th>
+            <th><span id="final1">0</span></th>
+        </tr>
+
+        <tr>
+            <th colspan="2"><img src="https://images7.kabum.com.br/produtos/fotos/531157/teclado-mecanico-gamer-machenike-k500b-b87-rgb-switch-red-layout-80-usb-c-abnt2-branco-e-azul-ref-jj02gz009_1769523642_gg.jpg" width="275" height="275"></th>
+            <th>Teclado Mecânico Gamer Machenike K500B-B87 RGB, Switch RED, Layout 80%, Usb-C, Abnt2, Branco E Azul - REF JJ02GZ009</th>
+            <th>R$ 170,90</th>
+            <th><button onclick="Menos(2)" >-</button>
+                <span id="Quant3">0</span> 
+                <button onclick="Mais(2)">+</button>
+            </th>
+            <th><span id="final2">0</span></th>
+        </tr>
+
+        
+
+    </table>
+</div>
+
+     <script src="js/script.js"></script>
+
+</body>
+</html>

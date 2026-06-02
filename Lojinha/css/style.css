@@ -1,0 +1,21 @@
+.cabeçalho {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    margin: 0 auto;
+    width: 75%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th, td {
+    vertical-align: top;
+    border: 1px solid #ccc;
+    padding: 10px;
+    
+}
