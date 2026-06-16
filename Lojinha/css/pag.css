@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 3px 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.logo h1{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(234, 251, 255);
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(234, 251, 255);
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.produto{
+    text-align: center;
+    border: solid 3px;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.produto img{
+    width: 500px;
+    height: 500px;
+    margin: 15px;
+}
+
+.produto a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.produto :hover{
+    transform: scale(1.02);
+}
+
+.produtos {
+    flex-direction: wrap;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.produto h2{
+    font-size: 25px;
+}
+
+.produto p{
+    font-size: 25px;
+}
