@@ -10,14 +10,48 @@
 </head>
 <body>
     <header>
-        
-    </header>
-    <div class="cima">
-        <img src="Design sem nome (1).png" width="60" height="60">
-        <div class="espaco">
-        <h3>Lojinha do Cho</h1>
-        <h4>Catálogo</h4>
-        </div>
+            <div class="logo">
+        <img src="Design sem nome (1).png" alt="Logo">
+        <h1>Lojinha do Cho</h1>
     </div>
+
+    <nav>
+        <a href="">Página Inicial</a>
+        
+        <a href="index.html">Carrinho</a>
+    </nav>
+    </header>
+    <table>
+        <tr>
+            <th rowspan="3"><img src="https://m.media-amazon.com/images/I/71tV-csYdCL.jpg" width="500" height="500"></th>
+            <th valign="top">
+                <h1 class="titulo">
+                MSI Placa gráfica Gaming RTX 5090 32G Gaming Trio OC (32GB GDDR7, 512-bit, Extreme Clock TBD MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)
+            </h1>
+            <br>
+            <p class="preco">
+                R$
+                <span id="final">33925.00</span> &nbsp;&nbsp;
+                <button onclick="Menos(0)" >-</button>
+                <span id="Quant1">1</span> 
+                <button onclick="Mais(0)">+</button>
+        </p>
+        <button class="botao">
+            COMPRE JÀ</button>
+            <br>
+            <br>
+            <br>
+        <ul>
+            <li>Tipo de memória gráfica: GDDR7.></li>
+            <li>Tamanho da memória: 16 GB.</li>
+            <li>GPU de última geração com interface PCI Express® Geração 5 para desempenho superior.</li>
+            <li>Memória gráfica GDDR7 para imagens mais nítidas e detalhadas.</li>
+            <li>Conectividade com 3 portas DP 2.1b e 1 porta HDMI 2.1b para múltiplas telas.</li>
+            <li>Bus de memória de 256 bits para maior largura de banda e eficiência.</li>
+        </ul>
+            </th>
+        </tr>
+    </table>
+    <script src="js/rtx.js"></script>
 </body>
 </html>
