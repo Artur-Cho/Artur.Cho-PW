@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sistema de RH</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="login-card">
+        <h2>Login - RH</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="login">Usuário</label>
+                <input type="text" id="login" required placeholder="Digite seu usuário">
+            </div>
+            <div class="input-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" required placeholder="Digite sua senha">
+            </div>
+            <button type="submit" class="btn-login">Entrar</button>
+            <div id="erroMsg" class="erro-msg"></div>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

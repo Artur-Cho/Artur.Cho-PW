@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
     senha VARCHAR(255) NOT NULL
 );
 
-INSERT IGNORE INTO usuarios (login, senha) VALUES ('admin', '1234');
+INSERT IGNORE INTO usuarios (login, senha) VALUES ('cho', '1234');
 
 CREATE TABLE IF NOT EXISTS departamentos (
     id INT AUTO_INCREMENT PRIMARY KEY,

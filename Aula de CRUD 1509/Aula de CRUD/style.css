@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #caddf8;
 }
 
 button {
@@ -129,6 +129,7 @@ tbody tr td.acao {
 
     td button i {
         font-size: 20px !important;
+        background-color: #caddf8;
     }
 
     td button i:first-child {
@@ -189,7 +190,7 @@ tbody tr td.acao {
     border-radius: 20px;
     padding: 5px 10px;
     border: none;
-    background-color: rgb(57, 57, 226);
+    background-color: rgb(57, 226, 71);
     color: white;
 }
 

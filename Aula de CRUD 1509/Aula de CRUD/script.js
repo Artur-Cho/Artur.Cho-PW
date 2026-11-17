@@ -114,3 +114,29 @@ return [];
 };
 const setItensBD = () => {}; // Não mais necessário
 loadItens()
+
+app.post('/api/login', async (req, res) => {
+    try {
+        const { login, senha } = req.body;
+
+        if (!login || !senha) {
+            return res.status(400).json({ error: 'Informe o login e a senha.' });
+        }
+
+        // Busca o usuário no banco
+        const [rows] = await db.execute(
+            'SELECT * FROM usuarios WHERE login = ? AND senha = ?',
+            [login, senha]
+        );
+
+        if (rows.length === 0) {
+            return res.status(401).json({ error: 'Usuário ou senha inválidos.' });
+        }
+
+        // Login bem-sucedido
+        res.json({ success: true, message: 'Login realizado com sucesso!' });
+
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
